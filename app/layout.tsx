@@ -1,6 +1,7 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Nanum_Gothic } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/next';
 
 const nanum = Nanum_Gothic({ subsets: ['latin'], weight: ['400','700','800'], display: 'swap', variable: '--font-nanum' });
 
@@ -27,10 +28,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ko" className={nanum.variable}>
       <head>
+        <meta name="naver-site-verification" content="69cefc903af328ede155201d9bdd80f1c7848b55" />
+        <meta name="google-site-verification" content="af42lhPhv8s-htTu4oTIBne9w1WaCT-QEl3jOqucBnU" />
         <link rel="preconnect" href="https://cdn.jsdelivr.net" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquareNeo@1.0/nanumsquareneo.css" />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
