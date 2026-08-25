@@ -113,10 +113,9 @@ export const products: Product[] = [
     ],
     "maxShare": 6,
     "features": [
-      "Gamma Pro package",
-      "Unlimited AI creation",
-      "Emphasizes higher completion quality, meticulous detail control, and suitability for commercial use or quick sharing on social media after completion.",
-      "Advanced AI editing operations"
+      "Gamma Pro 패키지, 무제한 AI 제작",
+      "높은 완성도와 정교한 디테일 제어",
+      "Flux Ultra·Ideogram·DALL·E 3 등 프리미엄 이미지 생성"
     ],
     "icon": "/icons/14.webp"
   },
@@ -309,10 +308,9 @@ export const products: Product[] = [
     ],
     "maxShare": 5,
     "features": [
-      "Over 110 million lossless, HiRes FLAC, and Dolby Atmos audio tracks",
-      "HIFI， Full music library, no ads, offline listening",
-      "Supports synchronizing music and playlists across multiple devices, making it easy to switch between devices such as mobile phones, computers, and tablets.",
-      "Real time delivery, warranty, and refund guarantee."
+      "1억 1천만+ 무손실·HiRes FLAC·돌비 애트모스",
+      "광고 없는 HIFI 전곡 감상, 오프라인 재생",
+      "여러 기기 간 음악·플레이리스트 동기화"
     ],
     "icon": "/icons/9.png"
   },
@@ -418,7 +416,7 @@ export const products: Product[] = [
     "features": [
       "슈퍼 듀오링고를 즐기세요",
       "회원은 광고 없는 학습 환경을 누릴 수 있어, 각 수업 종료 시 광고 방해를 피하고 집중해서 공부할 수 있습니다",
-      "&lsquo;맞춤형 연습' 기능을 사용하여 연습 중에 발생하는 오류를 교정하세요",
+      "'맞춤형 연습' 기능을 사용하여 연습 중에 발생하는 오류를 교정하세요",
       "회원은 고급 전설 레벨에 무제한으로 도전하여, 배운 내용을 심도 있게 숙달하고 언어 능력을 향상시킬 수 있습니다"
     ],
     "icon": "/icons/12.png"
@@ -491,7 +489,7 @@ export const products: Product[] = [
     "maxShare": 3,
     "features": [
       "브랜드 색상, 글꼴, 로고 등을 포함한 브랜드 키트를 생성 및 저장하여 모든 디자인의 일관성을 보장하세요",
-      "1TB 클라우드 스토리지 &ndash; 모든 설정 자료가 클라우드에 업로드 및 저장되므로 저장 공간 부족을 걱정할 필요가 없습니다",
+      "1TB 클라우드 스토리지 – 모든 설정 자료가 클라우드에 업로드 및 저장되므로 저장 공간 부족을 걱정할 필요가 없습니다",
       "수백만 개의 디자인 템플릿, 사진, 일러스트, 아이콘, 오디오, 비디오 및 애니메이션",
       "20개 이상의 AI 도구를 활용하여 창의력을 자극하세요"
     ],

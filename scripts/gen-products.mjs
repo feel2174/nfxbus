@@ -27,6 +27,8 @@ const CAT = {
 };
 const ORDER = ['ai','streaming','creator','etc'];
 const FEATURE_OVERRIDE = {
+  9: ['1억 1천만+ 무손실·HiRes FLAC·돌비 애트모스', '광고 없는 HIFI 전곡 감상, 오프라인 재생', '여러 기기 간 음악·플레이리스트 동기화'],
+  14: ['Gamma Pro 패키지, 무제한 AI 제작', '높은 완성도와 정교한 디테일 제어', 'Flux Ultra·Ideogram·DALL·E 3 등 프리미엄 이미지 생성'],
   17: ['출처 링크와 함께 직접 답변하는 AI 검색엔진', '질문만 입력하면 정확한 답변 제공', '다양한 자연어 작업 지원'],
   21: ['구글 Gemini Pro 공식 계정 (최신 모델)', '4K 초고화질 이미지 즉시 생성', '구매 즉시 자동 활성화·로그인 제공'],
   22: ['최신 Grok 4.1 지원, 더 빠르고 똑똑한 AI', '고빈도 질의 및 이미지 생성', 'DeepSearch·Think 모드로 복잡한 문제 해결'],
@@ -43,11 +45,14 @@ const FEATURE_OVERRIDE = {
   32: ['구간 경쟁·트레이닝 대시보드', '심박·파워 분석', '루트 계획·고급 지표'],
 };
 
+function decodeEntities(s) {
+  const map = { '&nbsp;':' ', '&amp;':'&', '&lt;':'<', '&gt;':'>', '&quot;':'"',
+    '&#39;':"'", '&apos;':"'", '&lsquo;':"'", '&rsquo;':"'", '&ldquo;':'"',
+    '&rdquo;':'"', '&ndash;':'–', '&mdash;':'—', '&hellip;':'…', '&middot;':'·' };
+  return s.replace(/&[a-zA-Z]+;|&#\d+;/g, m => (m in map ? map[m] : m));
+}
 function features(detailHtml) {
-  const text = (detailHtml || '')
-    .replace(/<[^>]+>/g, '\n')
-    .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&')
-    .replace(/&mdash;/g, '—').replace(/&rsquo;/g, "'");
+  const text = decodeEntities((detailHtml || '').replace(/<[^>]+>/g, '\n'));
   const lines = text.split('\n').map(l => l.replace(/\s+/g, ' ').trim()).filter(Boolean);
   const checks = lines.filter(l => l.startsWith('✅')).map(l => l.replace(/^✅\s*/, '')).slice(0, 4);
   return checks.length ? checks : lines.slice(0, 3);
