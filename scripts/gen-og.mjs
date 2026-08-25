@@ -11,7 +11,7 @@ const html = `<!doctype html><html><head><meta charset="utf8"><style>
 </style></head><body><div class="w">
   <h1>프리미엄 구독<br/>최대 90% 저렴하게</h1>
   <p>넷플릭스 · ChatGPT · 유튜브 등 25종</p>
-  <div class="b">쿠폰 DM6R44 — 10% 추가할인</div>
+  <div class="b">쿠폰 HY2QCU — 10% 추가할인</div>
 </div></body></html>`;
 
 const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });

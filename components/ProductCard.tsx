@@ -6,7 +6,7 @@ export function ProductCard({ product }: { product: Product }) {
   return (
     <article className="card">
       <div className="card__head">
-        <img className="card__icon" src={product.icon} alt={product.brand} width={48} height={48} loading="lazy" />
+        <img className="card__icon" src={product.icon} alt={product.brand} width={68} height={68} loading="lazy" />
         <div>
           <h3 className="card__name">{product.name}</h3>
           <span className="card__share">최대 {product.maxShare}인 공유</span>

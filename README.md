@@ -1,15 +1,15 @@
 # 네픽스버스 할인코
 
 네픽스버스(nfxbus.com) 프리미엄 공유구독 **25종**을 한눈에 비교·추천하는 단일 랜딩 페이지입니다.
-Next.js 정적 사이트로, 모든 CTA는 제휴 링크로 연결되고 **10% 추가할인 쿠폰 `DM6R44`**를 안내합니다.
+Next.js 정적 사이트로, 모든 CTA는 제휴 링크로 연결되고 **10% 추가할인 쿠폰 `HY2QCU`**를 안내합니다.
 
 > ⚠️ 본 사이트는 네픽스버스 **공식 사이트가 아니며**, 제휴(어필리에이트) 링크를 포함합니다.
 > 가격·배송·환불·정책은 전적으로 네픽스버스 기준을 따릅니다.
 
 ## 주요 사항
 
-- **어필리에이트 링크**: 모든 버튼 → `https://www.nfxbus.com/?uc=JVZNDGBA` (`rel="sponsored nofollow noopener"`)
-- **쿠폰**: `DM6R44` (10% 추가할인)
+- **어필리에이트 링크**: 모든 버튼 → `https://www.nfxbus.com/?uc=W7JKVP58` (`rel="sponsored nofollow noopener"`)
+- **쿠폰**: `HY2QCU` (10% 추가할인)
 - **가격 표기**: USD + 원화 병기 (1 USD ≈ 1,350원, 참고용)
 - **폰트**: 네이버 나눔 (Nanum Gothic + NanumSquare Neo), 한글 `word-break: keep-all`
 - **테마**: 라이트 + 다크 자동 대응
