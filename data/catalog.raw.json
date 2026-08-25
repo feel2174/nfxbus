@@ -1,0 +1,592 @@
+[
+ {
+  "id": 12,
+  "name": "duolingo",
+  "short": "DLG",
+  "cat": 2,
+  "from": "1.45",
+  "maxnum": 5,
+  "skus": [
+   {
+    "name": "6 months",
+    "month": 6,
+    "price": 13.99
+   },
+   {
+    "name": "12 months",
+    "month": 12,
+    "price": 19.99
+   }
+  ],
+  "icon": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20250318/17422307648845808965979.png",
+  "img": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20250318/17422307668301010697790.png",
+  "desc": "✅슈퍼 듀오링고를 즐기세요 ✅회원은 광고 없는 학습 환경을 누릴 수 있어, 각 수업 종료 시 광고 방해를 피하고 집중해서 공부할 수 있습니다 ✅&lsquo;맞춤형 연습&rsquo; 기능을 사용하여 연습 중에 발생하는"
+ },
+ {
+  "id": 28,
+  "name": "pixiv",
+  "short": "pixiv",
+  "cat": 2,
+  "from": "1.66",
+  "maxnum": 1,
+  "skus": [
+   {
+    "name": "12 months",
+    "month": 12,
+    "price": 18.99
+   }
+  ],
+  "icon": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20260424/17770045314504806645893.webp",
+  "img": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20260424/17770045391321869386435.webp",
+  "desc": "pixiv Premium Find popular or time-fitting content with advanced search and browsing history Enjoy faster, ad-free brows"
+ },
+ {
+  "id": 17,
+  "name": "Perplexity AI",
+  "short": "perple",
+  "cat": 2,
+  "from": "1.72",
+  "maxnum": 6,
+  "skus": [
+   {
+    "name": "3 months",
+    "month": 3,
+    "price": 6.39
+   },
+   {
+    "name": "6 months",
+    "month": 6,
+    "price": 12.59
+   },
+   {
+    "name": "12 months",
+    "month": 12,
+    "price": 22.99
+   }
+  ],
+  "icon": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20260305/17727101321683736062757.webp",
+  "img": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20260305/17727101356536300624331.webp",
+  "desc": "AI search engine provides direct answers rather than just links, offering a smarter search experience Simply input a que"
+ },
+ {
+  "id": 15,
+  "name": "Office 365",
+  "short": "off",
+  "cat": 2,
+  "from": "1.95",
+  "maxnum": 5,
+  "skus": [
+   {
+    "name": "12 months",
+    "month": 12,
+    "price": 35.99
+   }
+  ],
+  "icon": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20251110/17627136209619042489604.png",
+  "img": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20251110/17627136233333313324577.png",
+  "desc": "Supports all Microsoft apps, including Word, Excel, PowerPoint, Outlook, OneDrive, Teams. Synchronized across multiple d"
+ },
+ {
+  "id": 21,
+  "name": "gemini",
+  "short": "gemn",
+  "cat": 2,
+  "from": "2.12",
+  "maxnum": 1,
+  "skus": [
+   {
+    "name": "12 months",
+    "month": 12,
+    "price": 29.99
+   }
+  ],
+  "icon": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20260309/17730629316453915793103.webp",
+  "img": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20260309/17730629367118244390900.webp",
+  "desc": "Official Gemini Pro (Google AI Pro) account with access to the latest models and features, including Gemini 3.1 pro Nano"
+ },
+ {
+  "id": 2,
+  "name": "Spotify Premium",
+  "short": "SP",
+  "cat": 2,
+  "from": "2.30",
+  "maxnum": 5,
+  "skus": [
+   {
+    "name": "3 months(personal)",
+    "month": 3,
+    "price": 16.99
+   },
+   {
+    "name": "12 months(personal)",
+    "month": 12,
+    "price": 42.99
+   }
+  ],
+  "icon": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20231110/16995576964185633308945.webp",
+  "img": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20231013/16971346595637092846775.jpg",
+  "desc": "✅ 프리미엄 플랜, $2.55/월/스크린 ✅ 충실도 높은 사운드 ✅ 실시간 배송 ✅ 모바일, PC, 탭 &nbsp;"
+ },
+ {
+  "id": 3,
+  "name": "Disney+",
+  "short": "DSN",
+  "cat": 2,
+  "from": "2.53",
+  "maxnum": 7,
+  "skus": [
+   {
+    "name": "1 month",
+    "month": 1,
+    "price": 5.69
+   },
+   {
+    "name": "3 months",
+    "month": 3,
+    "price": 12.89
+   },
+   {
+    "name": "6 months",
+    "month": 6,
+    "price": 21.89
+   },
+   {
+    "name": "12 months",
+    "month": 12,
+    "price": 31.99
+   }
+  ],
+  "icon": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20231110/16995576850395885285168.png",
+  "img": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20231013/16971346313838554547614.png",
+  "desc": "✅ 프리미엄 플랜, $2.1/월/스크린 ✅ 6명이 1구독을 공유하고, ✅ 모바일, PC, TV ✅ 개인 프로필 및 기록 ✅ 모든 즐겨찾기 및 목록 유지"
+ },
+ {
+  "id": 8,
+  "name": "crunchyroll",
+  "short": "CRCH",
+  "cat": 2,
+  "from": "2.54",
+  "maxnum": 4,
+  "skus": [
+   {
+    "name": "3 months",
+    "month": 3,
+    "price": 8.88
+   },
+   {
+    "name": "6 months",
+    "month": 6,
+    "price": 16.99
+   },
+   {
+    "name": "12 months",
+    "month": 12,
+    "price": 32.98
+   }
+  ],
+  "icon": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20240224/17087133894585814650230.png",
+  "img": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20240224/17087133927637895655008.png",
+  "desc": "✅ 4명이 구독 1개를 공유합니다. ✅ 실시간 배송 ✅ 모바일 단말기, PC, TV, TV 박스 지원 ✅ 애프터 서비스 지원, 걱정 없는 환불"
+ },
+ {
+  "id": 9,
+  "name": "Tidal Plus",
+  "short": "TID",
+  "cat": 2,
+  "from": "2.69",
+  "maxnum": 5,
+  "skus": [
+   {
+    "name": "3 months",
+    "month": 3,
+    "price": 9.69
+   },
+   {
+    "name": "6 months",
+    "month": 6,
+    "price": 18.69
+   },
+   {
+    "name": "12 months",
+    "month": 12,
+    "price": 38.99
+   }
+  ],
+  "icon": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20250323/17426788068727766280215.png",
+  "img": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20250323/17426786165485803343449.png",
+  "desc": "✅&nbsp;Over 110 million lossless, HiRes FLAC, and Dolby Atmos audio tracks ✅&nbsp;HIFI， Full music library, no ads, offl"
+ },
+ {
+  "id": 11,
+  "name": "canva",
+  "short": "CVA",
+  "cat": 2,
+  "from": "2.99",
+  "maxnum": 3,
+  "skus": [
+   {
+    "name": "3 months",
+    "month": 3,
+    "price": 15.99
+   },
+   {
+    "name": "6 months",
+    "month": 6,
+    "price": 29.99
+   },
+   {
+    "name": "12 months",
+    "month": 12,
+    "price": 56.99
+   }
+  ],
+  "icon": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20250318/17422302150017249516987.png",
+  "img": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20250318/17422302162444105638511.png",
+  "desc": "✅브랜드 색상, 글꼴, 로고 등을 포함한 브랜드 키트를 생성 및 저장하여 모든 디자인의 일관성을 보장하세요 ✅1TB 클라우드 스토리지 &ndash; 모든 설정 자료가 클라우드에 업로드 및 저장되므로 저장 공간 부족을"
+ },
+ {
+  "id": 27,
+  "name": "Deezr",
+  "short": "deezr",
+  "cat": 2,
+  "from": "2.99",
+  "maxnum": 5,
+  "skus": [
+   {
+    "name": "3 months",
+    "month": 3,
+    "price": 9.59
+   },
+   {
+    "name": "6 months",
+    "month": 6,
+    "price": 18.59
+   },
+   {
+    "name": "12 months",
+    "month": 12,
+    "price": 35.99
+   }
+  ],
+  "icon": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20260422/17768354468916146593975.webp",
+  "img": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20260422/17768354555764007523285.webp",
+  "desc": "Enjoy advert-free music playback Download to your device and listen without an internet connection! Premium delivers up "
+ },
+ {
+  "id": 20,
+  "name": "Notion",
+  "short": "notion",
+  "cat": 2,
+  "from": "3.08",
+  "maxnum": 1,
+  "skus": [
+   {
+    "name": "3 months",
+    "month": 3,
+    "price": 8.59
+   },
+   {
+    "name": "6 months",
+    "month": 6,
+    "price": 16.59
+   },
+   {
+    "name": "12 months",
+    "month": 12,
+    "price": 29.99
+   }
+  ],
+  "icon": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20260308/17729600707265971877464.webp",
+  "img": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20260308/17729600726116168888881.webp",
+  "desc": "Plus Plan Modular Freedom: Eliminate Tool-Switching Chaos Unified Workspace: Cut Tool Costs by 47% Real-Time Collaborati"
+ },
+ {
+  "id": 19,
+  "name": "UPDF",
+  "short": "updf",
+  "cat": 2,
+  "from": "3.32",
+  "maxnum": 3,
+  "skus": [
+   {
+    "name": "1 month",
+    "month": 3,
+    "price": 4.68
+   },
+   {
+    "name": "6 months",
+    "month": 6,
+    "price": 23.59
+   },
+   {
+    "name": "12 months",
+    "month": 12,
+    "price": 47.99
+   }
+  ],
+  "icon": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20260306/17727963305825479994169.webp",
+  "img": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20260306/17727963333656977999852.webp",
+  "desc": "UPDF Pro + AI Automate document processing with built-in 4o model Turn scanned documents into searchable and editable PD"
+ },
+ {
+  "id": 5,
+  "name": "Youtube  Premium",
+  "short": "YTB",
+  "cat": 2,
+  "from": "3.57",
+  "maxnum": 5,
+  "skus": [
+   {
+    "name": "6 months",
+    "month": 6,
+    "price": 27.59
+   },
+   {
+    "name": "12 months",
+    "month": 12,
+    "price": 47.59
+   }
+  ],
+  "icon": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20231110/16995576594138257912943.webp",
+  "img": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20231013/16971346016417207396857.png",
+  "desc": "✅ 프리미엄 요금제, $3.88/월/스크린 ✅ 실시간으로 초대 링크 보내기 ✅ 개인 구독, 모든 즐겨찾기 및 목록 유지 ✅ 보증, 환불 보증 ✅ 도움말: 구매하기 전에 play.google.com에서 계정 국가가 E"
+ },
+ {
+  "id": 30,
+  "name": "AVG",
+  "short": "avg",
+  "cat": 2,
+  "from": "3.99",
+  "maxnum": 1,
+  "skus": [
+   {
+    "name": "12 months",
+    "month": 12,
+    "price": 46.99
+   }
+  ],
+  "icon": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20260424/17770097912025055078375.webp",
+  "img": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20260424/17770097958913481780766.webp",
+  "desc": "AVG Ultimate Internet security: protect you from from hackers, ransomware, webcam hackers, and malware of all kinds Fast"
+ },
+ {
+  "id": 7,
+  "name": "GPT PLUS",
+  "short": "GP",
+  "cat": 2,
+  "from": "4.50",
+  "maxnum": 6,
+  "skus": [
+   {
+    "name": "3 months",
+    "month": 3,
+    "price": 15.59
+   },
+   {
+    "name": "6 months",
+    "month": 6,
+    "price": 30.69
+   },
+   {
+    "name": "12 months",
+    "month": 12,
+    "price": 59.99
+   }
+  ],
+  "icon": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20240223/17086254620003381646595.png",
+  "img": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20240223/17086254652492971549527.png",
+  "desc": "✅ 공식 4.0 모델 ✅ GPT 스토어 즐기기 ✅ 플러그인 사용 가능 ✅ API 금지"
+ },
+ {
+  "id": 14,
+  "name": "Gamma",
+  "short": "gam",
+  "cat": 2,
+  "from": "4.93",
+  "maxnum": 6,
+  "skus": [
+   {
+    "name": "3 months",
+    "month": 3,
+    "price": 18.88
+   },
+   {
+    "name": "6 months",
+    "month": 6,
+    "price": 32.88
+   },
+   {
+    "name": "12 months",
+    "month": 12,
+    "price": 63.99
+   }
+  ],
+  "icon": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20251107/17624516854787563500716.webp",
+  "img": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20251107/17624516875588243684505.png",
+  "desc": "✅Gamma Pro package ✅Unlimited AI creation ✅Emphasizes higher completion quality, meticulous detail control, and suitabil"
+ },
+ {
+  "id": 26,
+  "name": "Grammarly",
+  "short": "grammarly",
+  "cat": 2,
+  "from": "4.99",
+  "maxnum": 1,
+  "skus": [
+   {
+    "name": "3 months",
+    "month": 3,
+    "price": 13.99
+   }
+  ],
+  "icon": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20260421/17767792887885190482156.webp",
+  "img": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20260421/17767792921289343420868.webp",
+  "desc": "AI-powered writing assistant to improve English writing quality Grammar and spelling checks, tone analysis, writing guid"
+ },
+ {
+  "id": 32,
+  "name": "Stava",
+  "short": "stava",
+  "cat": 2,
+  "from": "4.99",
+  "maxnum": 1,
+  "skus": [
+   {
+    "name": "12 months",
+    "month": 12,
+    "price": 38.99
+   }
+  ],
+  "icon": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20260424/17770215369289513177410.jpg",
+  "img": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20260424/17770215414833014373679.webp",
+  "desc": "Segment Competition Training Dashboard Heart Rate &amp; Power Analysis Plan &amp; Discover Routes Advanced Metrics"
+ },
+ {
+  "id": 1,
+  "name": "Netflix",
+  "short": "NF",
+  "cat": 2,
+  "from": "5.39",
+  "maxnum": 5,
+  "skus": [
+   {
+    "name": "1 month",
+    "month": 1,
+    "price": 5.99
+   }
+  ],
+  "icon": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20231013/16971346807538999988501.webp",
+  "img": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20231013/16971346762607192744205.png",
+  "desc": "✅ 프리미엄 요금제, $3.69/월/화면 ✅ 5명이 구독 1개 공유 ✅ 모바일, PC, TV ✅ 4K, HDR, 돌비"
+ },
+ {
+  "id": 16,
+  "name": "CapCut",
+  "short": "capc",
+  "cat": 2,
+  "from": "6.60",
+  "maxnum": 1,
+  "skus": [
+   {
+    "name": "1 month",
+    "month": 1,
+    "price": 7.99
+   },
+   {
+    "name": "6 months",
+    "month": 6,
+    "price": 44.59
+   },
+   {
+    "name": "12 months",
+    "month": 12,
+    "price": 87.99
+   }
+  ],
+  "icon": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20260305/17727100260783052958986.webp",
+  "img": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20260305/17727100273686894790960.webp",
+  "desc": "CapCut Teams &mdash; with full CapCut Pro features included, built for advanced and precision image and video editing ne"
+ },
+ {
+  "id": 29,
+  "name": "vidIQ",
+  "short": "vid",
+  "cat": 2,
+  "from": "8.99",
+  "maxnum": 1,
+  "skus": [
+   {
+    "name": "1 month",
+    "month": 1,
+    "price": 9.99
+   }
+  ],
+  "icon": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20260424/17770097016595230026928.webp",
+  "img": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20260424/17770096951450231997497.webp",
+  "desc": "vidIQ Boost Identity keywords to optimize video's visibility to get more views and attract more subscribers Generate vid"
+ },
+ {
+  "id": 22,
+  "name": "Grok",
+  "short": "grok",
+  "cat": 2,
+  "from": "10.34",
+  "maxnum": 3,
+  "skus": [
+   {
+    "name": "3 months",
+    "month": 3,
+    "price": 38.99
+   },
+   {
+    "name": "6 months",
+    "month": 5,
+    "price": 72.99
+   }
+  ],
+  "icon": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20260309/17730630541426238019015.webp",
+  "img": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20260309/17730630553402729070745.webp",
+  "desc": "SuperGrok plan Supports the latest Grok 4.1 for a faster, smarter AI experience. Offers higher-frequency queries and ima"
+ },
+ {
+  "id": 24,
+  "name": "Adobe",
+  "short": "adobe",
+  "cat": 2,
+  "from": "11.99",
+  "maxnum": 1,
+  "skus": [
+   {
+    "name": "3 months",
+    "month": 3,
+    "price": 36.99
+   },
+   {
+    "name": "12 months",
+    "month": 12,
+    "price": 143.99
+   }
+  ],
+  "icon": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20260316/17736591936685424924066.webp",
+  "img": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20260316/17736591960517231623876.webp",
+  "desc": "Access to all features of all Creative Cloud apps, including Ps, Ae, Pr and more Cloud storage for file sync and access "
+ },
+ {
+  "id": 13,
+  "name": "Youtube Recharge",
+  "short": "YTB REH",
+  "cat": 3,
+  "from": "3.67",
+  "maxnum": 1,
+  "skus": [
+   {
+    "name": "3 months⚡(Own account, in 12hrs)",
+    "month": 3,
+    "price": 14.99
+   }
+  ],
+  "icon": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20250807/17545043635323929266129.png",
+  "img": "https://nfxbus.oss-us-west-1.aliyuncs.com/frontend/20250804/17543164192186639407110.png",
+  "desc": "✅주문 후에는 환불이 불가합니다. ✅YouTube Premium을 이용 중인 계정은 현재 충전이 지원되지 않습니다. ✅구매 후 충전은 개인 계정에 적용되며, 안전하고 안정적입니다! ✅재생목록과 구독 정보는 그대로 유"
+ }
+]
