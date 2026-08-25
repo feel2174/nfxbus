@@ -14,7 +14,7 @@ const html = `<!doctype html><html><head><meta charset="utf8"><style>
   <div class="b">쿠폰 DM6R44 — 10% 추가할인</div>
 </div></body></html>`;
 
-const browser = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox'] });
+const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
 const page = await browser.newPage();
 await page.setViewport({ width: 2400, height: 1260, deviceScaleFactor: 1 });
 await page.setContent(html, { waitUntil: 'networkidle0' });

@@ -16,9 +16,9 @@ export function ProductGrid({ products }: { products: Product[] }) {
   const shown = cat === 'all' ? products : products.filter(p => p.category === cat);
   return (
     <section id="products" className="grid-wrap">
-      <div className="tabs" role="tablist">
+      <div className="tabs" role="group" aria-label="카테고리 필터">
         {TABS.map(t => (
-          <button key={t.key} role="tab" aria-selected={cat === t.key}
+          <button key={t.key} type="button" aria-pressed={cat === t.key}
             className={`tab ${cat === t.key ? 'tab--on' : ''}`} onClick={() => setCat(t.key)}>
             {t.label}
           </button>

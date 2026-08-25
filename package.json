@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/gen-products.mjs && next build",
+    "build": "next build",
     "start": "next start",
     "test": "vitest run",
     "gen": "node scripts/gen-products.mjs",
